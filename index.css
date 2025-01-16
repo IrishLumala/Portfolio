@@ -1,0 +1,117 @@
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #faf8f9, #715388); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 30%;
+    margin: 10px auto;
+    display: block;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.nav-tabs {
+    margin-bottom: 20px;
+}
+
+.nav-tabs .nav-link {
+    font-weight: bold;
+    color: #495057;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #a50883;
+    color: white;
+}
+
+.nav-tabs .nav-link:hover {
+    background-color: #a50883;
+    color: #fff;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+.hero-text {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid;
+  width: 100%;
+  animation: typing 3s steps(30, end), blink 0.5s step-end infinite;
+}
+
+
+h1, h5 {
+    color: #000;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+h6 {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #000000;
+}
+
+p {
+    font-size: 1rem;
+    color: #000000;
+    margin: 5px 0;
+}
+
+
+hr {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #11263c;
+}
+
+.card {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    max-width: 4000px;
+    
+}
+
+
+footer {
+    font-size: 1rem;
+    background: linear-gradient(to bottom, #faf8f9, #715388);
+    color: #e9ecef;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+}
